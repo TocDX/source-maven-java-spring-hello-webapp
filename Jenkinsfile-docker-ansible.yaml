@@ -14,7 +14,11 @@ pipeline {
 
       steps {
 
+<<<<<<< HEAD
         git branch: 'main', url: 'git@github.com:TocDX/source-maven-java-spring-hello-webapp.git'
+=======
+        git branch: 'main', url: 'https://github.com/TocDX/source-maven-java-spring-hello-webapp'
+>>>>>>> ddf3f74 (asd)
 
       }
 
